@@ -1,0 +1,12 @@
+{
+  "name": "math-stripe-test",
+  "version": "0.1.0",
+  "description": "Simple HTTP server to test stripe webhooks",
+  "main": "server.js",
+  "author": "Matheus Nascimento",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  }
+}
