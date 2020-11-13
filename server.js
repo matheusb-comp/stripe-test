@@ -6,4 +6,4 @@ const requestListener = function (req, res) {
 }
 
 const server = http.createServer(requestListener);
-server.listen($PORT);
+server.listen(process.env.PORT);
