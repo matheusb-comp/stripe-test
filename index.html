@@ -27,7 +27,7 @@
 
     <!-- Load Stripe.js on your website. -->
     <script src="https://js.stripe.com/v3"></script>
-    
+
     <script>
       (function() {
         var stripe = Stripe('pk_test_51Hn9mMFGhFYNyLHZrRgy4kJsDRxCEgFbHQmzTrqnhpy8gpl4GtpAl9EtapMg0NfRaJjAw8TDWv5p2KKkBVGCxYLw00i15IPxYh');
@@ -44,8 +44,8 @@
             // a successful payment.
             // Instead use one of the strategies described in
             // https://stripe.com/docs/payments/checkout/fulfill-orders
-            successUrl: 'https://your-website.com/success',
-            cancelUrl: 'https://your-website.com/canceled',
+            successUrl: 'https://matheusb-comp.github.io/stripe-test/',
+            cancelUrl: 'https://matheusb-comp.github.io/stripe-test/',
           })
           .then(function (result) {
             if (result.error) {
